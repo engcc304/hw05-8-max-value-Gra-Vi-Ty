@@ -27,7 +27,6 @@ int main() {
     int num1, num2, num3;
     
     // รับค่า Input
-    printf("Enter three numbers: ");
     scanf("%d %d %d", &num1, &num2, &num3);
     
     // แสดงผลลัพธ์อันดับของแต่ละหมายเลข
