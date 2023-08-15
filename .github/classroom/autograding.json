@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW05/hw05-8-max-value.cpp",
+      "run": "./a.out",
+      "input": "12 25 52",
+      "output": "1st Number = 12\r\n2nd Number = 25\r\n3rd Number = 52\r\nThe 3rd Number is the greatest among three",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW05/hw05-8-max-value.cpp",
+      "run": "./a.out",
+      "input": "89 54 72",
+      "output": "1st Number = 89\r\n2nd Number = 54\r\n3rd Number = 72\r\nThe 1rd Number is the greatest among three",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
