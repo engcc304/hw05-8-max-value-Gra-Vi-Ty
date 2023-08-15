@@ -27,3 +27,47 @@
     Output:
         F !
 */
+
+
+#include <stdio.h>
+
+int main() {
+    int score;
+    
+    // รับค่า Input
+    printf("enter score : ");
+    scanf("%d", &score);
+
+    // ใช้ switch case เพื่อตรวจสอบเกรด
+    switch (score) {
+        case 0 ... 49:
+            printf("F !\n");
+            break;
+        case 50 ... 54:
+            printf("D !\n");
+            break;
+        case 55 ... 59:
+            printf("D+ !\n");
+            break;
+        case 60 ... 64:
+            printf("C !\n");
+            break;
+        case 65 ... 69:
+            printf("C+ !\n");
+            break;
+        case 70 ... 74:
+            printf("B !\n");
+            break;
+        case 75 ... 79:
+            printf("B+ !\n");
+            break;
+        case 80 ... 100:
+            printf("A !\n");
+            break;
+        default:
+            printf("Invalid score !\n");
+            break;
+    }
+
+    return 0;
+}
